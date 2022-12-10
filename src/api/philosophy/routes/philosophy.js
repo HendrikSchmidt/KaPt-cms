@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * philosophie router
+ * philosophy router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::philosophie.philosophie');
+module.exports = createCoreRouter('api::philosophy.philosophy');

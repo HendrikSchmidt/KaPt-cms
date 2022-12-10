@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "philosophies",
   "info": {
-    "singularName": "philosophie",
+    "singularName": "philosophy",
     "pluralName": "philosophies",
     "displayName": "Philosophie"
   },
@@ -18,8 +18,7 @@
     "Biographies": {
       "type": "component",
       "repeatable": true,
-      "component": "personal.biographie",
-      "required": true
+      "component": "personal.biographie"
     }
   }
 }
