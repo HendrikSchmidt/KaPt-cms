@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_personal_biographies",
+  "info": {
+    "displayName": "Biographie",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string",
+      "required": true
+    },
+    "Position": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
