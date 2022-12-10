@@ -4,7 +4,8 @@
   "info": {
     "singularName": "logo",
     "pluralName": "logos",
-    "displayName": "Logo"
+    "displayName": "Logo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,7 +16,20 @@
     }
   },
   "attributes": {
-    "Image": {
+    "Large": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Small": {
       "allowedTypes": [
         "images"
       ],
