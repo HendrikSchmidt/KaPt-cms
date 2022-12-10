@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Large": {
+    "Logo": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -28,19 +28,6 @@
           "localized": true
         }
       }
-    },
-    "Small": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "required": true
     }
   }
 }

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "philosophies",
+  "info": {
+    "singularName": "philosophie",
+    "pluralName": "philosophies",
+    "displayName": "Philosophie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Philosophie": {
+      "type": "richtext",
+      "required": true
+    },
+    "Biographies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "personal.biographie",
+      "required": true
+    }
+  }
+}
