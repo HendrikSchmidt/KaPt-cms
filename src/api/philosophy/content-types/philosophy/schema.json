@@ -4,21 +4,36 @@
   "info": {
     "singularName": "philosophy",
     "pluralName": "philosophies",
-    "displayName": "Philosophie"
+    "displayName": "Philosophie",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "Philosophie": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Biographies": {
       "type": "component",
       "repeatable": true,
-      "component": "personal.biographie"
+      "component": "personal.biographie",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
