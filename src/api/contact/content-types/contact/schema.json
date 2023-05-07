@@ -21,12 +21,12 @@
       "type": "string"
     },
     "Adresse": {
-      "pluginOptions": {},
-      "type": "string"
+      "type": "richtext",
+      "required": true
     },
     "Instagram": {
-      "pluginOptions": {},
-      "type": "richtext"
+      "type": "string",
+      "required": true
     }
   }
 }
