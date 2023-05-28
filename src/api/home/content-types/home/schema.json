@@ -20,6 +20,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::project.project"
+    },
+    "News": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::new.new"
     }
   }
 }
