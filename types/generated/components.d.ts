@@ -11,7 +11,7 @@ export interface PersonalBiographie extends Schema.Component {
     Nom: Attribute.String & Attribute.Required;
     Position: Attribute.String & Attribute.Required;
     Description: Attribute.RichText & Attribute.Required;
-    Portrait: Attribute.Media;
+    Portrait: Attribute.Media<'images'>;
   };
 }
 
