@@ -4,6 +4,14 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      strapi:
+        patterns:
+          - "@strapi/*"
+      react:
+        patterns:
+        - "react"
+        - "react-dom"
     ignore:
       # For all packages, ignore all patch updates
       - dependency-name: "*"
