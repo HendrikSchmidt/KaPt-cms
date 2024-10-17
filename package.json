@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.25.9",
-    "@strapi/plugin-users-permissions": "4.25.9",
-    "@strapi/provider-upload-cloudinary": "4.25.9",
+    "@strapi/plugin-users-permissions": "5.1.0",
+    "@strapi/provider-upload-cloudinary": "5.1.0",
     "@strapi/strapi": "4.25.9",
     "better-sqlite3": "^11.3.0",
     "pg": "^8.13.0",
