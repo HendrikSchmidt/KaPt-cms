@@ -16,7 +16,7 @@
     "@strapi/strapi": "4.25.13",
     "better-sqlite3": "^11.8.1",
     "pg": "^8.14.1",
-    "pg-connection-string": "^2.5.0",
+    "pg-connection-string": "^2.9.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
